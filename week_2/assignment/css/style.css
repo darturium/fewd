@@ -1,0 +1,159 @@
+/*
+Project Name: Relaxer
+Client: General Assembly
+Author: David Hernandez
+Developer @GA in Atlanta
+*/
+
+body {
+    /*margin: auto;
+    width: 90%;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+/******** INTRO ********/
+
+.intro {
+    color: white;
+    text-align: center;
+    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background-size: cover;
+    height: 400px;
+}
+
+.intro h1 {
+    text-align: left;
+    padding: 20px 0 0 50px;
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+.intro h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.yellow-button {
+    color: #033048;
+    background-color: #f9e42e;
+    padding: 8px 15px;
+    font-weight: 800;
+    width: 15%;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/********* BENEFITS *********/
+
+.benefits {
+    color: #606161;
+    background-color: #f0efef;
+    padding: 30px 20px;
+}
+
+
+.benefits h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
+    margin-left: 35px;
+}
+
+.benefits p,
+.benefits ul {
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+/******** TESTIMONIAL ********/
+
+.testimonial {
+    color: white;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.testimonial * {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.testimonial blockquote {
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimonial p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+/******** CALL TO ACTION ********/
+
+.call_to_action {
+    background-color: #f9e42e;
+    height: 80px;
+}
+
+.signup-button {
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #033048;
+    width: 15%;
+    margin: auto;
+    padding: 8px 0;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+
+    /*This code below makes the button
+    vertically centered*/
+    position: relative;
+    top: 50%;
+    /*vendor prefixes for compatibility*/
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/******** FOOTER ********/
+
+footer {
+    color: #f9e42e;
+    background-color: #121212;
+    text-align: center;
+}
+
+footer h1 {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+footer img {
+    height: 20px;
+    padding-bottom: 30px;
+}
+
+#twitter {
+    margin-right: 20px;
+}
+
+small {
+    color: white;
+    display: block;
+    padding: 15px;
+    font-size: 9px;
+    font-weight: 600;
+}

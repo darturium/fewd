@@ -1,0 +1,115 @@
+
+body {
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f6f6f6;
+  font-family: sans-serif;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+header {
+  border-top: solid 4px black;
+  text-align: center;
+  border-bottom: solid 1px black;
+}
+
+.about a:first-of-type {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.portfolio a:last-of-type {
+  text-decoration: none;
+  font-style: italic;
+}
+
+
+header h1 {
+  text-transform: uppercase;;
+}
+
+/*MAIN CONTENT STYLES*/
+
+.main-content h4 {
+  text-transform: uppercase;
+}
+
+.main-content li {
+  list-style-type: square;
+  margin-top: 15px;
+}
+
+.main-content {
+  /*border-top: solid 1px black;*/
+  border-bottom: solid 1px black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+#me {
+  max-width: 100%;
+  width: 200px;
+  border-radius: 10px;
+  align-content: flex-end;
+  margin: 15px;
+  border: .5px black solid;
+  padding: 3px;
+}
+
+img {
+  max-width: 100%;
+  margin: 15px;
+  border-radius: 10px;
+  border: .5px black solid;
+  padding: 3px;
+}
+
+/*FOOTER STYLES */
+
+footer {
+  text-align: center;
+  border-bottom: solid 4px black;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 5px;
+}
+
+/*FLOATED ELEMENTS*/
+
+.left,
+.right {
+  width: 46.5%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

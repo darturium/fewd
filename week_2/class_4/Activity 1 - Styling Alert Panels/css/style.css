@@ -1,0 +1,56 @@
+
+/* Some styles */
+
+body { font-size: 16px; padding: 25px 10%; background-color: #ccc; font-family: "Open Sans", Arial, sans-serif; }
+#container { border: 1px solid #ddd; padding: 40px; background-color: #fff; border-radius: 20px}
+h1 { margin-top: 0; }
+.hidden { display: none; }
+
+
+/* Your styles below this line */
+
+h1, h2 {
+    color: dimgray;
+}
+
+.alert-success {
+    background: lightgreen;
+}
+
+.alert-danger {
+    background: tomato;
+}
+
+.notification {
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 15px;
+    text-align: center;
+}
+
+.notification:hover {
+    border: 2px darkgray solid;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: brown;
+}
+
+.alert-danger a:hover {
+    color: cadetblue;
+    text-decoration: underline;
+}
+.link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+float both to the left
+////////////////
+place floated elementes in #main-content, then:
+
+#main-content {
+    overflow: hidden;
+}

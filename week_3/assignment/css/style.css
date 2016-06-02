@@ -1,0 +1,251 @@
+/*
+Project Name: Week 3
+Client: Your Client
+Author: David A. Hernandez
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {
+    margin-top: 0;
+}
+
+body {
+    margin: auto;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+#container {
+    overflow: auto;
+    background-color: #f0efef;
+}
+
+header {
+    background-color: #033048;
+    color: white;
+    overflow: auto;
+    padding: 17px 60px;
+}
+
+header h1 {
+    display: inline;
+}
+
+header nav {
+    width: 60%;
+    margin: 10px auto;
+    display: inline;
+    float: right;
+    text-align: right;
+    color: #f9e42e;
+}
+
+nav li {
+    color: #f9e42e;
+    display: inline;
+    margin: 0px 10px;
+}
+
+.main {
+    width: 80%;
+    float: left;
+    padding-top: 50px;
+}
+
+.main-top {
+    border-bottom: 1px #033048 solid;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.main-bottom {
+    border-bottom: 1px #033048 solid;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    padding-top: 50px;
+}
+
+.categories {
+    margin-bottom: 40px;
+}
+
+.about {
+    padding-right: 40px;
+}
+
+.ad-unit img {
+    padding-top: 30px;
+    width: 78%;
+}
+
+#call-to-action {
+    clear: both;
+    background-color: #f9e42e;
+    padding: 30px 0;
+}
+
+/******** FOOTER ********/
+
+footer {
+    color: #f9e42e;
+    background-color: #121212;
+    text-align: center;
+}
+
+footer h1 {
+    margin-top: 0;
+    padding-top: 30px;
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+footer img {
+    height: 20px;
+    padding-bottom: 30px;
+}
+
+#twitter {
+    margin-right: 20px;
+}
+
+small {
+    color: white;
+    display: block;
+    padding: 15px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.signup-button {
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #033048;
+    width: 15%;
+    margin: auto;
+    padding: 8px 0;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.main h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #033048;
+}
+
+.main p {
+    font-size: 13px;
+    font-weight: 300;
+    color: #606161;
+    margin-top: 20px;
+}
+
+.main img {
+    display: block;
+    width: 100%;
+}
+
+.main a {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #033048;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+nav li a {
+    color: #f9e42e;
+    text-decoration: none;
+}
+
+aside {
+    color: #033048;
+}
+
+aside h3 {
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0 0 0 3px;
+}
+
+.about a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    color: #033048;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.main p:first-letter {
+    font-size: 300%;
+    font-weight: bold;
+    float: left;
+    padding: 0 5px;
+}

@@ -1,0 +1,66 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: black;
+  color: white;
+  border-bottom: 5px solid yellow;
+}
+
+header h1 {
+  color: yellow;
+  margin-top: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+.image {
+  height: 500px;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/57586/matchmaker.png') no-repeat center;
+  background-size: cover;
+  /*overflow: hidden;*/
+}
+
+.meet-match {
+    border: 1px black solid;
+    width: 30%;
+    float: right;
+    margin: 40px 40px 40px 0;
+    background-color: white;
+    padding: 3% 4% 3% 2%;
+}
+
+.button-yellow {
+    background-color: yellow;
+    /*width: 150px;*/
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3%;
+    font-weight: bolder;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.bottom {
+    clear: both;
+    overflow: hidden;
+}
+
+.create-profile,
+.find-developer,
+.find-designer {
+    width: 32%;
+    float: left;
+}
+
+
+footer {
+    clear: both;
+    color: white;
+    background-color: black;
+    padding: 1px 0 1px 15px;
+}
